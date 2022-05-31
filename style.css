@@ -1,0 +1,171 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-missing-end-of-source-newline */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto auto 20px auto;
+  border: 2px solid black;
+}
+
+header li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 7px;
+}
+
+header div:nth-child(1) {
+  width: 40%;
+}
+
+header div:nth-child(1) p {
+  margin: 7px 18px;
+}
+
+header div:nth-child(1) p a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+header div:nth-child(2) {
+  width: 60%;
+}
+
+header div:nth-child(2) ul li {
+  padding: 0 12px 0 0;
+}
+
+header div:nth-child(2) nav {
+  margin: 10px 15px;
+}
+
+header div:nth-child(2) ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+header div:nth-child(2) ul li a {
+  border-right: 2px solid black;
+  text-decoration: none;
+  color: black;
+  padding: 2px 8px;
+}
+
+header div:nth-child(2) ul li:last-child a {
+  border: none;
+}
+
+.active {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.activelink {
+  color: #1b64d1 !important;
+  border-color: #1b64d1;
+}
+
+#contact-btn {
+  width: 70%;
+  margin: 18px auto;
+}
+
+#contact-btn p,
+#contact-btn ul {
+  width: 80%;
+  margin: 20px auto;
+}
+
+#contact-btn p {
+  margin-top: 50px;
+}
+
+#myform {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: auto;
+  align-items: flex-end;
+}
+
+input {
+  height: 30px;
+  margin: 20px 0;
+  width: 100%;
+  padding: 0 10px;
+  border: 3px solid black;
+  color: black;
+  outline: none;
+  font-size: 14px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#lists {
+  width: fit-content;
+  margin: auto;
+  border: 2px solid #1a1a1a;
+}
+
+#lists li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+#addbtn {
+  width: 70px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 10);
+}
+
+td {
+  padding-left: 20px;
+}
+
+.delete {
+  margin-left: 25px;
+  margin-top: 5px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 10);
+}
+
+tr {
+  width: 100%;
+}
+
+#lists > tr:nth-child(odd) {
+  background-color: #d4c3c3;
+}
+
+.btn {
+  display: none;
+}
+
+footer {
+  width: 80%;
+  left: 10%;
+  border: 3px solid black;
+  position: fixed;
+  bottom: 4%;
+  margin-top: 20px;
+}
+
+footer p {
+  padding: 1px 20px;
+}
+
+#currenttime {
+  margin-left: 1000px;
+}

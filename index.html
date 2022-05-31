@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div>
+            <p><a href="#">Awesome Books</a></p>    
+        </div>
+        <div>
+            <nav>
+                <ul>
+                  <li><a class="activelink nav" href="#list-btn">List</a></li>
+                  <li><a href="#form-btn" class="nav">Add new</a></li>
+                  <li><a href="#contact-btn" class="nav">Contact</a></li>
+                </ul>
+              </nav>
+        </div>
+    </header>
+    <p class="todaydate"><span id="currenttime"></span></p>
+    <div class="section active" id="list-btn">
+    <h1>My Awesome Books</h1>
+    <div id="lists"></div>
+    </div>
+    <div class="section hidden" id="form-btn">
+    <form id="myform" method="post">
+        <input class="title" type="text" placeholder="Title" required>
+        <input class= "author" type="text" placeholder="Author" required>
+        <button type="submit" id="addbtn">Add</button>
+    </form>
+    </div>
+    <div class="section hidden" id="contact-btn">
+        <h2>Contact Information</h2>
+        <p>Do have any questions or Inquiries? <br> You are welcomed to reach out!</p>
+        <ul>
+            <li>Our email: <a href="wimobiy734@sinyago.com">mail@mail.com</a></li>
+            <li>Our phone number: <a href="tel:0048466457856">0047359476256</a></li>
+            <li>Our address: street name, city, country</li>
+          </ul>
+    </div>
+    <footer>
+        <p>Copyright .....</p>
+    </footer>
+    <script src="index.js" type= "module" ></script>
+</body>
+</html>
