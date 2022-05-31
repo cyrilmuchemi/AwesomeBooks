@@ -167,5 +167,13 @@ footer p {
 }
 
 #currenttime {
-  margin-left: 1000px;
+  display: flex;
+  text-align: right;
+}
+
+.todaydate {
+  display: flex;
+  justify-content: end;
+  width: 80%;
+  margin: auto;
 }

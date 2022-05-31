@@ -1,14 +1,8 @@
 /* eslint max-classes-per-file: ["error", 3] */
-import  Storage  from "./modules/storage.js";
-import  Interface  from "./modules/books.js";
-
-
-class MyBooks {
-  constructor(_title, _author) {
-    this.title = _title;
-    this.author = _author;
-  }
-}
+import Storage from './modules/storage.js';
+import Interface from './modules/interface.js';
+import MyBooks from './modules/books.js';
+import { DateTime } from './modules/luxon.js';
 
 document.addEventListener('DOMContentLoaded', Interface.displayBooks());
 document.querySelector('#myform').addEventListener('submit', (e) => {
@@ -45,20 +39,8 @@ document.querySelectorAll('.nav').forEach((nav) => {
 });
 
 const myDate = () => {
-  const date = new Date();
-  const options = {
-    weekday: undefined,
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  };
-  const [month, time] = [
-    date.toLocaleDateString(undefined, options),
-    date.toLocaleTimeString().toLocaleLowerCase(),
-  ];
-  document.getElementById('currenttime').innerHTML = `${month}, ${time}`;
+  const dt = DateTime.now();
+  document.getElementById('currenttime').innerHTML = `${dt.toLocaleString(DateTime.DATETIME_MED_WITH_SECONDS)}`;
 };
 myDate();
 setInterval(myDate, 1000);
-
-
