@@ -1,8 +1,6 @@
-# Awsome-books
+# Awesome Books
 
-[](https://img.shields.io/badge/Microverse-blueviolet)
-
-> This is a simple Book List app Project.
+> This is a simple JavaScript book list app.
 
 ## Built With
 
@@ -12,7 +10,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://sameh080081.github.io/Awesome-books/)
+[Live Demo Link](https://cyrilmuchemi.github.io/AwesomeBooks/)
 
 ## Authors
 
@@ -22,11 +20,6 @@
 - Twitter: [@cyrilmuchemi](https://twitter.com/cyrilmuchemi)
 - LinkedIn: [CyrilMuchemi](https://linkedin.com/in/cyrilmuchemi)
 
-👤 **Author2**
-
-- GitHub: [@sameh080081](https://github.com/sameh080081)
-- Twitter: [@sameh080081](https://twitter.com/sameh080081)
-- LinkedIn: [sameh080081](https://linkedin.com/in/sameh080081)
 
 ## 🤝 Contributing
 
